@@ -1,0 +1,17 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "motor_control.cpp"
+        "button_handler.cpp"
+        "matter_handler.cpp"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp_matter
+        nvs_flash
+        esp_wifi
+        esp_event
+        driver
+        log
+        freertos
+)

@@ -1,0 +1,14 @@
+# Build output
+build/
+sdkconfig
+
+# Dependencies (генерируются автоматически)
+managed_components/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp

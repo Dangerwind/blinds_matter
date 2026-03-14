@@ -1,0 +1,101 @@
+dependencies:
+  espressif/button:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__button
+      type: local
+    version: 2.5.0
+  espressif/cbor:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__cbor
+      type: local
+    version: 0.6.1~4
+  espressif/esp_diag_data_store:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__esp_diag_data_store
+      type: local
+    version: 1.0.1
+  espressif/esp_diagnostics:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__esp_diagnostics
+      type: local
+    version: 1.0.2
+  espressif/esp_encrypted_img:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__esp_encrypted_img
+      type: local
+    version: 2.1.0
+  espressif/esp_insights:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__esp_insights
+      type: local
+    version: 1.0.1
+  espressif/esp_secure_cert_mgr:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__esp_secure_cert_mgr
+      type: local
+    version: 2.9.1
+  espressif/jsmn:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__jsmn
+      type: local
+    version: 1.1.0
+  espressif/json_generator:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__json_generator
+      type: local
+    version: 1.1.2
+  espressif/json_parser:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__json_parser
+      type: local
+    version: 1.0.3
+  espressif/led_strip:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__led_strip
+      type: local
+    version: 1.0.0
+  espressif/mdns:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__mdns
+      type: local
+    version: 1.10.1
+  espressif/rmaker_common:
+    dependencies: []
+    source:
+      path: /Users/dangerwind/esp/blinds_matter/managed_components/espressif__rmaker_common
+      type: local
+    version: 1.4.12
+  idf:
+    source:
+      type: idf
+    version: 5.1.4
+direct_dependencies:
+- espressif/button
+- espressif/cbor
+- espressif/esp_diag_data_store
+- espressif/esp_diagnostics
+- espressif/esp_encrypted_img
+- espressif/esp_insights
+- espressif/esp_secure_cert_mgr
+- espressif/jsmn
+- espressif/json_generator
+- espressif/json_parser
+- espressif/led_strip
+- espressif/mdns
+- espressif/rmaker_common
+- idf
+manifest_hash: e1ed849bf3acccf3044c40da9f6b557a5fad9d5c13de76d14b2d77216ea2692b
+target: esp32
+version: 2.0.0

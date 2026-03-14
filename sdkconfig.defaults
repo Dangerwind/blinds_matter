@@ -1,0 +1,55 @@
+# ==============================================================================
+# sdkconfig.defaults
+# ESP32 Blinds Controller — default SDK configuration for Matter
+# ==============================================================================
+
+# ── Target ────────────────────────────────────────────────────────────────────
+CONFIG_IDF_TARGET="esp32"
+
+# ── Flash & Partition ─────────────────────────────────────────────────────────
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+
+# ── FreeRTOS ──────────────────────────────────────────────────────────────────
+CONFIG_FREERTOS_HZ=1000
+CONFIG_FREERTOS_UNICORE=n
+
+# ── Stack sizes ───────────────────────────────────────────────────────────────
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+CONFIG_SYSTEM_EVENT_TASK_STACK_SIZE=4096
+
+# ── NVS ───────────────────────────────────────────────────────────────────────
+CONFIG_NVS_ASSERT_ERROR_CHECK=n
+
+# ── Bluetooth (required for Matter commissioning) ────────────────────────────
+CONFIG_BT_ENABLED=y
+CONFIG_BT_NIMBLE_ENABLED=y
+CONFIG_BT_NIMBLE_MAX_CONNECTIONS=3
+CONFIG_BT_NIMBLE_ROLE_PERIPHERAL=y
+CONFIG_BT_NIMBLE_ROLE_BROADCASTER=y
+
+# ── Wi-Fi ─────────────────────────────────────────────────────────────────────
+CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM=4
+CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER_NUM=8
+CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER_NUM=16
+CONFIG_ESP32_WIFI_STATIC_RX_BUFFER_SIZE=1600
+
+# ── LWIP (networking stack) ───────────────────────────────────────────────────
+CONFIG_LWIP_IPV6=y
+CONFIG_LWIP_IPV6_AUTOCONFIG=y
+CONFIG_LWIP_TCPIP_TASK_STACK_SIZE=4096
+
+# ── Matter / CHIP ─────────────────────────────────────────────────────────────
+CONFIG_ESP_MATTER_ENABLE_DATA_MODEL=y
+CONFIG_ENABLE_CHIP_SHELL=n
+CONFIG_USE_MINIMAL_MDNS=n
+CONFIG_ENABLE_EXTENDED_DISCOVERY=y
+CONFIG_ENABLE_COMMISSIONER_DISCOVERY=n
+CONFIG_CHIP_ENABLE_PAIRING_AUTOSTART=y
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+CONFIG_LOG_MAXIMUM_LEVEL_DEBUG=y
+CONFIG_BOOTLOADER_LOG_LEVEL_WARN=y
+CONFIG_MBEDTLS_HKDF_C=y
