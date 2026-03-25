@@ -283,6 +283,6 @@ idf.py -p /dev/cu.usbserial-110 erase-flash
 
 
 ![Общий вид](https://github.com/Dangerwind/blinds_matter/blob/main/img/all.jpg)
-![Корпус](https://github.com/Dangerwind/blinds_matter/blob/main/img/all.jpg)
+![Как спрятаны герконы](https://github.com/Dangerwind/blinds_matter/blob/main/img/gerkon.jpg)
 ![Как спрятаны герконы](https://github.com/Dangerwind/blinds_matter/blob/main/img/gerkon-2.jpg)
 ![Крепление двигателя](https://github.com/Dangerwind/blinds_matter/blob/main/img/motor.jpg)
