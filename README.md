@@ -10,7 +10,6 @@
 
 Устройство можно собрать на базе отлаточной платы ESP32 (будет не компактно, но собирать проще) или на модуле ESP32-WROOM-32 (как на фото).
 
-![Общий вид](https://github.com/Dangerwind/blinds_matter/blob/main/img/all.jpg)
 ![Внешний вид, передняя часть](https://github.com/Dangerwind/blinds_matter/blob/main/img/pcb-up.jpg)
 ![Внешний вид, задняя часть](https://github.com/Dangerwind/blinds_matter/blob/main/img/pcb-back.jpg)
 
@@ -277,9 +276,11 @@ idf.py -p /dev/cu.usbserial-110 erase-flash
 
 ---
 
-Корпус устройства и все пластиковые детали напечатаны на 3D принтере.
+Корпус устройства и все пластиковые детали напечатаны на 3D принтере платиком PETG белым.
+В шторах надо заменит только механизм подъема на механизм с мотором.
 
+
+![Общий вид](https://github.com/Dangerwind/blinds_matter/blob/main/img/all.jpg)
 ![Корпус](https://github.com/Dangerwind/blinds_matter/blob/main/img/all.jpg)
 ![Как спрятаны герконы](https://github.com/Dangerwind/blinds_matter/blob/main/img/gerkon-2.jpg)
-![Как спрятаны герконы](https://github.com/Dangerwind/blinds_matter/blob/main/img/gerkon.jpg)
-
+![Крепление двигателя](https://github.com/Dangerwind/blinds_matter/blob/main/img/motor.jpg)
