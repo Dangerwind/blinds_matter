@@ -202,9 +202,9 @@ python3 ~/esp/esp-matter/connectedhomeip/connectedhomeip/src/setup_payload/pytho
     -d 4001 -p 20202021 -vid 65521 -pid 32768 -cf 0 -dm 2
 ```
 
-Добавление в Home Assistant: Настройки → Устройства и службы → Matter (BETA) → Добавить устройство.
-или схеренить QR код тут https://project-chip.github.io/connectedhomeip/qrcode.html
-надо ввести в форму код типа MT:Y.K90.......
+Добавление в Home Assistant: Настройки → Устройства и службы → Matter (BETA) → Добавить устройство.   
+Или сгенерить QR код тут `https://project-chip.github.io/connectedhomeip/qrcode.html`   
+Ввести в форму код типа MT:Y.K90.......
 
 ---
 
