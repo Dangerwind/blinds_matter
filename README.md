@@ -250,7 +250,7 @@ ls /dev/cu.*          # macOS
 ls /dev/ttyUSB*       # Linux
 ```
 
-порт определиться типа так `/dev/cu.usbserial-110`
+порт определится так `/dev/cu.usbserial-110` к примеру
 
 ### 5. Прошивка
 
