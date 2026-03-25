@@ -2,7 +2,7 @@
 
 # ESP32 Blinds Controller with Matter
 
-Контроллер рулонных шлор на ESP32-WROOM-32 с интеграцией в умный дом через Matter (Home Assistant, Apple Home, Google Home).
+Контроллер рулонных штор на ESP32-WROOM-32 с интеграцией в умный дом через Matter (Home Assistant, Apple Home, Google Home).
 
 ---
 
