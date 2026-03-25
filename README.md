@@ -287,3 +287,7 @@ idf.py -p /dev/cu.usbserial-110 erase-flash
 ![Как спрятаны герконы](https://github.com/Dangerwind/blinds_matter/blob/main/img/gerkon.jpg)
 ![Как спрятаны герконы](https://github.com/Dangerwind/blinds_matter/blob/main/img/gerkon-2.jpg)
 ![Крепление двигателя](https://github.com/Dangerwind/blinds_matter/blob/main/img/motor.jpg)
+
+---
+PS:   
+Весь код написн полностью на ИИ.
