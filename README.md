@@ -8,7 +8,7 @@
 
 ![Как поднимаются шторы](https://github.com/Dangerwind/blinds_matter/blob/main/img/show.gif)
 
-Устройство можно собрать на базе отлаточной платы ESP32 (будет не компактно, но собирать проще) или на модуле ESP32-WROOM-32 (как на фото).
+Устройство можно собрать на базе отладочной платы ESP32 (будет не компактно, но собирать проще) или на модуле ESP32-WROOM-32 (как на фото).
 
 ![Внешний вид, передняя часть](https://github.com/Dangerwind/blinds_matter/blob/main/img/pcb-up.jpg)
 ![Внешний вид, задняя часть](https://github.com/Dangerwind/blinds_matter/blob/main/img/pcb-back.jpg)
