@@ -233,7 +233,7 @@ chmod +x build_fixed.sh
 ./build_fixed.sh
 ```
 
-> ⚠️ На macOS используйте `build_fixed.sh` вместо `idf.py build` из-за бага chip_gn.
+>  На macOS используйте `build_fixed.sh` вместо `idf.py build` из-за бага chip_gn.
 
 ### 4. Найти порт программатора
 
